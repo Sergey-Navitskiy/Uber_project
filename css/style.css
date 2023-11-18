@@ -136,3 +136,32 @@ nav {
   font-weight: 400;
   text-transform: uppercase;
 }
+
+.reasons {
+  min-width: 1064px;
+}
+
+.reasons .reasons_header {
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 115px;
+  height: 27px;
+  flex-shrink: 0;
+  background-color: #000;
+  color: #FFF;
+  text-align: center;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.reasons .reasons_subheader {
+  margin-top: 33px;
+  color: #222;
+  text-align: center;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+}
