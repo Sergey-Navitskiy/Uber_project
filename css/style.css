@@ -200,6 +200,7 @@ nav {
   font-style: normal;
   font-weight: 400;
   text-align: left;
+  line-height: 21px;
 }
 
 .reasons .reasons_block .reasons_descr_text {
@@ -208,4 +209,5 @@ nav {
   font-style: normal;
   font-weight: 300;
   text-align: left;
+  line-height: 21px;
 }
