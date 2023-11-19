@@ -138,7 +138,8 @@ nav {
 }
 
 .reasons {
-  min-width: 1064px;
+  min-height: 767px;
+  padding-bottom: 67px;
 }
 
 .reasons .reasons_header {
