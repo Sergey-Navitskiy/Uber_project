@@ -1,17 +1,20 @@
 * {
   font-family: "Roboto", sans-serif;
 }
+
 header {
   position: relative;
-  height: 50px; /* * */
+  height: 50px;
 }
+
 nav {
   height: 50px;
   background-color: #212121;
-  position: fixed; /* * */
-  width: 100%; 
+  position: fixed;
+  width: 100%;
   z-index: 2;
 }
+
 .menu {
   display: flex;
   justify-content: space-between;
@@ -19,13 +22,11 @@ nav {
   margin: 0;
   list-style-type: none;
 }
-
 .menu .menu_link {
   color: #ffffff;
   font-size: 15px;
   font-weight: 300;
 }
-
 .menu .menu_item {
   border-right: 2px dotted black;
   padding-right: 28px;
@@ -35,16 +36,14 @@ nav {
   position: absolute;
   width: 100%;
   height: 84px;
-  background-color: rgba(0,0,0, .6);
+  background-color: rgba(0, 0, 0, 0.6);
   top: 50px;
 }
-
 .subheader .subheader_logo {
   display: block;
   max-width: 100%;
   margin-top: 16px;
 }
-
 .subheader .subheader_official {
   margin-top: 6px;
   opacity: 0.5;
@@ -52,7 +51,6 @@ nav {
   font-size: 13px;
   font-weight: 400;
 }
-
 .subheader .subheader_call {
   color: #ffffff;
   font-size: 12px;
@@ -60,7 +58,6 @@ nav {
   margin-top: 19px;
   text-align: right;
 }
-
 .subheader .subheader_phone {
   display: block;
   margin-top: 8px;
@@ -71,7 +68,6 @@ nav {
   text-align: right;
   line-height: 12px;
 }
-
 .subheader .subheader_btn {
   margin-top: 19px;
   width: 172px;
@@ -92,7 +88,6 @@ nav {
   background: url(../img/uber_bg.png) center/cover no-repeat;
   padding: 150px 0 135px 0;
 }
-
 .promo .promo_header {
   color: #FFF;
   text-align: center;
@@ -102,7 +97,6 @@ nav {
   text-transform: uppercase;
   line-height: 60px;
 }
-
 .promo .promo_subheader {
   color: #FFF;
   text-align: center;
@@ -114,7 +108,6 @@ nav {
   line-height: 36px;
   margin-top: 22px;
 }
-
 .promo .promo_descr {
   color: #FFF;
   text-align: center;
@@ -122,7 +115,6 @@ nav {
   font-style: normal;
   font-weight: 400;
 }
-
 .promo .promo_btn {
   display: block;
   margin: 118px auto 0 auto;
@@ -132,7 +124,6 @@ nav {
   border-radius: 4px;
   background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
   box-shadow: 0px -4px 0px 0px rgba(0, 0, 0, 0.12) inset;
-
   color: #FFF;
   text-align: center;
   text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
@@ -145,7 +136,6 @@ nav {
 .reasons {
   padding: 71px 0 65px 0;
 }
-
 .reasons .reasons_header {
   margin: 0 auto;
   height: 24px;
@@ -157,7 +147,6 @@ nav {
   font-weight: 300;
   text-transform: uppercase;
 }
-
 .reasons .reasons_subheader {
   margin-bottom: 0;
   margin-top: 38px;
@@ -168,15 +157,12 @@ nav {
   font-weight: 700;
   text-transform: uppercase;
 }
-
-
 .reasons .reasons_block {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 35px;
 }
-
 .reasons .reasons_block .reasons_round {
   display: flex;
   justify-content: center;
@@ -187,25 +173,20 @@ nav {
   background-color: #1eacc7;
   border-radius: 100%;
 }
-
 .reasons .reasons_block .reasons_descr {
   width: 343px;
 }
-
 .reasons .reasons_block .reasons_title {
   color: #1EACC7;
   line-height: 21px;
   font-size: 17px;
   font-style: normal;
   font-weight: 400;
-  /* text-align: left; */
 }
-
 .reasons .reasons_block .reasons_text {
   color: #202020;
   font-size: 15px;
   font-style: normal;
   font-weight: 300;
-  /* text-align: left; */
   line-height: 21px;
-}
+}/*# sourceMappingURL=style.css.map */
