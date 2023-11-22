@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   font-family: "Roboto", sans-serif;
 }
@@ -8,10 +9,10 @@ header {
 }
 
 nav {
-  height: 50px;
-  background-color: #212121;
   position: fixed;
   width: 100%;
+  height: 50px;
+  background-color: #212121;
   z-index: 2;
 }
 
@@ -34,10 +35,10 @@ nav {
 
 .subheader {
   position: absolute;
+  top: 50px;
   width: 100%;
   height: 84px;
   background-color: rgba(0, 0, 0, 0.6);
-  top: 50px;
 }
 .subheader .subheader_logo {
   display: block;
@@ -84,78 +85,55 @@ nav {
 }
 
 .promo {
-  min-height: 880px;
-  background: url(../img/uber_bg.png) center/cover no-repeat;
+  min-height: 800px;
+  background: url("../img/uber_bg.png") center center/cover no-repeat;
   padding: 150px 0 135px 0;
 }
 .promo .promo_header {
-  color: #FFF;
-  text-align: center;
-  font-size: 60px;
-  font-style: normal;
+  color: #ffffff;
   font-weight: 700;
   text-transform: uppercase;
+  font-size: 60px;
   line-height: 60px;
+  margin: 0;
+  text-align: center;
 }
 .promo .promo_subheader {
-  color: #FFF;
-  text-align: center;
-  font-size: 36px;
-  font-style: normal;
+  color: #ffffff;
   font-weight: 700;
-  line-height: 48px;
   text-transform: uppercase;
+  font-size: 36px;
   line-height: 36px;
+  margin: 0;
   margin-top: 22px;
+  text-align: center;
 }
 .promo .promo_descr {
-  color: #FFF;
-  text-align: center;
+  color: #ffffff;
   font-size: 18px;
-  font-style: normal;
   font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  margin-top: 23px;
 }
 .promo .promo_btn {
   display: block;
   margin: 118px auto 0 auto;
   width: 259px;
   height: 63px;
-  flex-shrink: 0;
+  box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.12);
+  border: none;
   border-radius: 4px;
-  background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
-  box-shadow: 0px -4px 0px 0px rgba(0, 0, 0, 0.12) inset;
-  color: #FFF;
-  text-align: center;
-  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+  background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21);
+  color: #ffffff;
   font-size: 18px;
-  font-style: normal;
   font-weight: 400;
   text-transform: uppercase;
 }
 
 .reasons {
   padding: 71px 0 65px 0;
-}
-.reasons .reasons_header {
-  margin: 0 auto;
-  height: 24px;
-  width: 112px;
-  padding: 5px 12px;
-  background-color: #000000;
-  color: #ffffff;
-  font-size: 11px;
-  font-weight: 300;
-  text-transform: uppercase;
-}
-.reasons .reasons_subheader {
-  margin-bottom: 0;
-  margin-top: 38px;
-  color: #222;
-  text-align: center;
-  font-size: 38px;
-  font-style: normal;
-  font-weight: 700;
-  text-transform: uppercase;
 }
 .reasons .reasons_block {
   display: flex;
@@ -176,17 +154,117 @@ nav {
 .reasons .reasons_block .reasons_descr {
   width: 343px;
 }
-.reasons .reasons_block .reasons_title {
-  color: #1EACC7;
+.reasons .reasons_block .reasons_descr .reasons_subtitle {
   line-height: 21px;
+  color: #1eacc7;
+  font-size: 17px;
+  font-weight: 400;
+}
+.reasons .reasons_block .reasons_descr .reasons_text {
+  color: #202020;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 21px;
+}
+
+.label {
+  position: relative;
+  margin: 0 auto;
+  height: 24px;
+  width: 112px;
+  padding: 5px 12px;
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 11px;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+  z-index: 2;
+}
+.label_white {
+  background-color: #fff;
+  color: #000;
+}
+
+.title {
+  position: relative;
+  margin-bottom: 0;
+  margin-top: 38px;
+  color: #222222;
+  font-size: 38px;
+  line-height: 38px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  z-index: 2;
+}
+.title_white {
+  color: #fff;
+}
+
+.subtitle {
+  margin-top: 19px;
+  color: #222;
+  text-align: center;
   font-size: 17px;
   font-style: normal;
   font-weight: 400;
 }
-.reasons .reasons_block .reasons_text {
-  color: #202020;
-  font-size: 15px;
+
+.mobile {
+  min-height: 864px;
+  padding: 48 0 79 0;
+  background: url("../img/mobile_bg.png") center center/cover no-repeat;
+}
+.mobile .row {
+  margin-top: 32px;
+}
+.mobile_item {
+  position: relative;
+  width: 350px;
+  height: 280px;
+  margin: 0 auto;
+  margin-bottom: 19px;
+  padding-top: 92px;
+}
+.mobile_item_1 {
+  background: url("../img/Карточка_1.png") center center/cover no-repeat;
+}
+.mobile_item_2 {
+  background: url("../img/Карточка_2.png") center center/cover no-repeat;
+}
+.mobile_item_3 {
+  background: url("../img/Карточка_3.png") center center/cover no-repeat;
+}
+.mobile_item_4 {
+  background: url("../img/Карточка_4.png") center center/cover no-repeat;
+}
+.mobile_item_5 {
+  background: url("../img/Карточка_5.png") center center/cover no-repeat;
+}
+.mobile_item_6 {
+  background: url("../img/Карточка_6.png") center center/cover no-repeat;
+}
+.mobile_item_subtitle {
+  color: #FFF;
+  text-align: center;
+  font-size: 24px;
   font-style: normal;
-  font-weight: 300;
-  line-height: 21px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.mobile_item_plus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 35px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 26px;
+  height: 26px;
+  background-color: #000000;
+  margin: 0 auto;
+  border-radius: 100%;
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */
