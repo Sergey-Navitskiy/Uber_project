@@ -109,6 +109,7 @@ nav
 		font-weight: 400 
 		text-transform: uppercase 
 .reasons 
+	min
 	padding: 71px 0 65px 0 
 	.reasons_block 
 		display: flex 
@@ -176,6 +177,8 @@ nav
 	font-size: 17px
 	font-style: normal
 	font-weight: 400
+	&_white
+		color: #fff
 
 .mobile
 	min-height: 864px
@@ -224,5 +227,30 @@ nav
 			border-radius: 100%
 			cursor: pointer
 			
-
-
+.choice
+	position: relative
+	min-height: 895px
+	padding: 57px 0 138px 0
+	background: url('../img/mobile_bg.png') center (center / cover) no-repeat
+	&_img
+		position: relative
+		display: block
+		margin: 56px auto 0 auto
+		z-index: 2
+	&_descr
+		color: #222
+		text-align: center
+		font-size: 17px
+		font-style: normal
+		font-weight: 300
+		line-height: 24px
+	.black
+		position: absolute 
+		top: 0
+		left: 0
+		height: 499px
+		width: 100%
+		background-color: #070716
+		z-index: 1
+	
+		
