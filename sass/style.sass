@@ -121,14 +121,13 @@ nav
 		@include btn_hover
 		
 .reasons 
-	min
 	padding: 71px 0 65px 0 
-	&_block 
+	.reasons_block 
 		display: flex 
 		justify-content: center 
 		align-items: center 
 		margin-top: 35px 
-		&_round 
+		.reasons_round 
 			display: flex 
 			justify-content: center 
 			align-items: center 
@@ -137,14 +136,14 @@ nav
 			height: 113px 
 			background-color: #1eacc7 
 			border-radius: 100% 
-		&_descr 
+		.reasons_descr 
 			width: 343px 
-			&_subtitle 
+			.reasons_subtitle 
 				line-height: 21px 
 				color: #1eacc7 
 				font-size: 17px 
 				font-weight: 400 
-			&_text 
+			.reasons_text 
 				color: #202020 
 				font-size: 15px 
 				font-weight: 300 
@@ -289,4 +288,45 @@ nav
 	
 .conditions
 	padding: 68px 0 84px 0
-	
+	&_blocks
+		margin: 33px 0
+		&_nmb
+			margin-bottom: 0px
+	&_title 
+		color: #1ca8c3
+		font-size: 22px
+		font-weight: 400
+	&_list 
+		list-style-type: none
+		padding-left: 50px
+		margin-top: 22px
+		li
+			position: relative
+			font-size: 17px
+			font-weight: 300
+			line-height: 24px
+			margin-bottom: 5px
+			&::before
+				content: ''
+				display: block
+				position: absolute
+				left: -32px
+				top: 3px
+				width: 21px
+				height: 20px
+				background: url('../icons/Rectangle_blue.png') center (center / cover) no-repeat
+	&_descr
+		margin-top: 25px
+		color: #1CA8C3
+		font-size: 17px
+		font-weight: 300
+		line-height: 24px
+	.warning
+		.conditions_title
+			color: $second-color
+		.conditions_list
+			li
+				&:before
+					background: url('../icons/red_check.png') center (center / cover) no-repeat
+
+					
