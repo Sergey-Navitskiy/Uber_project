@@ -483,8 +483,12 @@ footer a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 0 4px;
   border-radius: 100%;
   width: 32px;
   height: 32px;
   background-color: black;
+}
+.footer_social_item i {
+  color: #fff;
 }/*# sourceMappingURL=style.css.map */
