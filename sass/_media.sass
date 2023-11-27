@@ -71,6 +71,7 @@
         top: 50%
         transform: translateY(-50%)
         width: 26px
+        height: 12px
         span
             display: block
             height: 2px
@@ -80,12 +81,34 @@
         &_active
             span
                 &:nth-last-child(1)
-                    translate: rotate(-45deg)
+                    transform: translateY(3px) rotate(-45deg)
                 &:nth-last-child(2)
                     display: none
                 &:nth-last-child(3)
-                    translate: rotate(45deg)
-                    
+                    transform: translateY(3px) rotate(45deg)
+    .xs-hidden
+        display: none
+    .xs-visible
+        display: block
+    .subheader
+        &_phone
+            display: block
+            margin-top: 10px
+            color: #fff
+            font-size: 16px
+            font-weight: 400
+            text-transform: uppercase
+            text-align: center
+        &_btn
+            display: block
+            width: 200
+            height: 40px
+            margin: 0 auto
+            margin-top: 10px
+    .promo
+        &_header
+            line-height: 45px
 
-
+@media ( max-width: 575px)
+    
 
