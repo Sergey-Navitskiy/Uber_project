@@ -47,7 +47,7 @@
     .menu
         position: fixed
         top: 0
-        right: 0
+        left: -100%
         width: 50%
         height: 100vh
         padding: 20px 15px
@@ -64,5 +64,28 @@
             margin-top: 10px
         &_link
             font-size: 20px
+    .hamburger
+        display: block
+        position: absolute
+        right: 10px
+        top: 50%
+        transform: translateY(-50%)
+        width: 26px
+        span
+            display: block
+            height: 2px
+            width: 100%
+            background-color: #fff
+            margin-bottom: 2px
+        &_active
+            span
+                &:nth-last-child(1)
+                    translate: rotate(-45deg)
+                &:nth-last-child(2)
+                    display: none
+                &:nth-last-child(3)
+                    translate: rotate(45deg)
+                    
+
 
 

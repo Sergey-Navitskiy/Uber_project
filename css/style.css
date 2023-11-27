@@ -16,6 +16,10 @@ nav {
   z-index: 2;
 }
 
+.hamburger {
+  display: none;
+}
+
 .menu {
   display: flex;
   justify-content: space-between;
@@ -551,7 +555,7 @@ footer a:hover {
   .menu {
     position: fixed;
     top: 0;
-    right: 0;
+    left: -100%;
     width: 50%;
     height: 100vh;
     padding: 20px 15px;
@@ -571,5 +575,29 @@ footer a:hover {
   }
   .menu_link {
     font-size: 20px;
+  }
+  .hamburger {
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 26px;
+  }
+  .hamburger span {
+    display: block;
+    height: 2px;
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 2px;
+  }
+  .hamburger_active span:nth-last-child(1) {
+    translate: rotate(-45deg);
+  }
+  .hamburger_active span:nth-last-child(2) {
+    display: none;
+  }
+  .hamburger_active span:nth-last-child(3) {
+    translate: rotate(45deg);
   }
 }/*# sourceMappingURL=style.css.map */
