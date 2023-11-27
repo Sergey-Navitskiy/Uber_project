@@ -630,4 +630,12 @@ footer a:hover {
   .promo_header {
     line-height: 45px;
   }
+}
+@media (max-width: 575px) {
+  .subheader_official {
+    display: none;
+  }
+  .subheader_logo {
+    margin-top: 27px;
+  }
 }/*# sourceMappingURL=style.css.map */
